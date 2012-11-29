@@ -1,0 +1,50 @@
+<head>
+  <title>scotchmedia.com</title>
+	<meta name="viewport" content="initial-scale=1.0">
+	<link rel="shortcut icon" href="/img/favicon.ico"/>
+  <link rel='stylesheet' href='http://twitter.github.com/bootstrap/assets/css/bootstrap.css'/>
+  <link rel='stylesheet' href='http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css'/>
+  <link rel='stylesheet' href='http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.css'/>
+  <script src='//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
+  <script
+    src='http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.js'></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', "UA-28149225-1"]);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+
+<body>
+  {{> body}}
+</body>
+
+<template name="body">
+  <div class="container" role="main">
+    <div class="page-header">
+      <div class="row">
+        <div class="span3">
+          <a href="/">
+            <h1>Scotch Media</h1>
+          </a>
+        </div>
+        <div class="span9">
+          <ul class="nav nav-pills nav-main">
+            <li class="{{isActiveTop "home"}}"><a class="nav-link" href="/">Home</a></li>
+            <li class="{{isActiveTop "projects"}}"><a class="nav-link" href="/projects">Projects</a></li>
+            <li class="{{isActiveTop "tutorials"}}"><a class="nav-link" href="/tutorials">Tutorials</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      {{renderPage}}
+    </div>
+  </div>
+</template>
