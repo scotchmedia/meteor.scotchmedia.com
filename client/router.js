@@ -10,7 +10,7 @@
   function projects() {
     track();
     Session.set('section', 'Projects');
-    return 'projects';
+    //return 'projects';
   }
   
   function project(slug) {
