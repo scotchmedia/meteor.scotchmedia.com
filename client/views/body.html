@@ -1,23 +1,19 @@
 <template name="body">
-  <div class="container" role="main">
-    <div class="page-header">
-      <div class="row">
-        <div class="span3">
-          <a href="/">
-            <h1>Scotch Media</h1>
-          </a>
-        </div>
-        <div class="span9">
-          <ul class="nav nav-pills nav-main">
-            <li class="{{isActiveTop "home"}}"><a class="nav-link" href="/">Home</a></li>
-            <li class="{{isActiveTop "projects"}}"><a class="nav-link" href="/projects">Projects</a></li>
-            <li class="{{isActiveTop "tutorials"}}"><a class="nav-link" href="/tutorials">Tutorials</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="content">
-      {{renderPage}}
-    </div>
+
+  <header>
+    <!--<h1><img src="/logo.png" alt="Scotch Media" /></h1>-->
+    <h1>Scotch Media</h1>
+    <ul class="">
+      <li class="{{isActiveTop "home"}}"><a class="nav-link" href="/">Home</a></li>
+      <li class="{{isActiveTop "projects"}}"><a class="nav-link" href="/projects">Projects</a></li>
+      <li class="{{isActiveTop "tutorials"}}"><a class="nav-link" href="/tutorials">Tutorials</a></li>
+    </ul>
+  </header>
+
+  <div class="main">
+    {{renderPage}}
   </div>
+
+  {{> footer}}
+
 </template>
