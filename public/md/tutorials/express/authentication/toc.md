@@ -1,6 +1,7 @@
 #### Managing User Accounts
+##### Sponsored by Borja Robles
 
-##### Section 1: Getting Started
+#### Section 1: Getting Started
 1. [Overview][]
 * [Creating an express app][]
 * [Testing with mocha][]
@@ -10,7 +11,7 @@
 * [Mongoose Models][]
 * [Homework][Homework 1]
 
-##### Section 2: Authentication
+#### Section 2: Authentication
 1. [Password Hashing][]
 * [Acceptance testing with supertest][]
 * [User signup][]
@@ -18,13 +19,13 @@
 * [Authenticated Routes][]
 * [Homework][Homework 2]
 
-##### Section 3: Password Rest
+#### Section 3: Password Rest
 1. [Creating User Tokens][]
 * [Sending Email with nodemailer][]
 * [Password Recovery][]
 * [Homework][Homework 3]
 
-##### Section 6: Deployment
+#### Section 6: Deployment
 1. [Heroku Deploy][]
 * [Appfog Deploy][]
 

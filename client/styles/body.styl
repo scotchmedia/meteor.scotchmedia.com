@@ -1,19 +1,43 @@
-column-width = 60
-gutter-width = 20
-columns = 12
-total-width = 100%
+@import "settings"
 
-// grid
-grid()
+//
+// app
+//
 
-.header
-.footer
-  column(12)
+// center the contents
+div.center
+  max-width: 1100px
+  margin: 0 auto
+  overflow: hidden
 
-.main
-.sidebar
-  float: left
+// header
+#top
+  margin-bottom: 1em
 
-.main
+#top
+  background-color: whitesmoke
+  header
+    column(9)
+  nav
+    column(3)
+    padding-top: 1.5em
+
+#logo
+  size: 285 49
+  padding: 1em 0
+
+footer#bottom
+  margin-top: 1em
+
+#content
   column(9)
 
+#sidebar
+  column(3)
+
+.breadcrumbs
+  breadcrumb()
+
+#global-nav
+  inline-list()
+  float: right;

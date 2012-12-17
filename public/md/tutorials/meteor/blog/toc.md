@@ -1,4 +1,5 @@
 #### Creating a Blog
+##### Sponsored by Borja Robles
 
 ##### Section 1: Getting Started
 1. [Overview][]
@@ -15,10 +16,6 @@
 ##### Section 3: Users & Accounts
 1. [Using the Accounts API]
 1. [Creating Flash Messages]
-
-##### Section 4: Creating an admin section
-* [Admin Section][]
-* [WYSIHTML5 Integration][]
 
 
 [Overview]:                           /tutorials/meteor/blog/1/01

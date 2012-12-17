@@ -19,22 +19,18 @@
 </template>
 
 <template name="tutorial">
+
   <ul class="breadcrumbs">
-    <li><a href="/{{section}}">{{section}}</a> <span class="divider">/</span></li>
-    <li class="active">{{book}}</li> 
+    <li><a href="/tutorials">tutorials</a></li>
+    <li>{{book}}</li> 
   </ul>
-  <div class="row">
-    <div class="two columns">
-      {{{marked mdToc}}}
-    </div>
-    <div class="eight columns">
-      {{{marked mdContent}}}
-    </div>
-    <div class="two columns">
-      <h5>
-        This tutorial
-        sponsored by Borja Robles
-      </h5>
-    </div>
-  </div>
+
+  <aside id="sidebar">
+    {{{marked mdToc}}}
+  </aside>
+
+  <article id="content">
+    {{{marked mdContent}}}
+  </article>
+
 </template>

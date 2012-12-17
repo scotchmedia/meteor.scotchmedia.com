@@ -1,5 +1,5 @@
 Template.tutorial.rendered = function () {
-  $(function() {
+  $(function () {
     // We are using jquery to add the class 'prettyprint' to all
     // occurrences of <pre>.
     $('pre').addClass('prettyprint');
