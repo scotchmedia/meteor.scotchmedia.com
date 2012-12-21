@@ -1,28 +1,35 @@
 <template name="body">
 
-	<!-- Header -->
-  <div id="top">
-    <div class="center">
-      <header>
-        <a href="/"><img id="logo" src="/logo.png" alt="Scotch Media" /></a>
-        <!--<h1>Scotch Media</h1>-->
-      </header>
-      <nav>
-        <ul id="global-nav">
+  <div id="layout">
+    <div class="row">
+      <div class="three columns">
+        <h1><a href="/"><img id="logo" src="/logo.png" alt="Scotch
+            Media" /></a></h1>
+      </div>
+      <div class="nine columns">
+        <ul class="nav-bar right">
           <li class="{{isActiveTop "home"}}"><a class="nav-link" href="/">Home</a></li>
         </ul>
-      </nav>
+      </div>
     </div>
+    <div class="row">
+      <div class="twelve columns">
+        <a class="new-window" href="/section" target="_blank">Open new window</a>
+        {{renderPage}}
+      </div>
+    </div>
+    <div id='push'></div>
   </div>
 
-	<div class="center">
-    {{renderPage}}
-	</div>
-
-  <footer id="bottom">
-    <div class="center">
-      <p>&copy; 2013 Scotch Media. All rights reserved.</p>
-    </div>
+  <footer id="footer" class="row">
+    <div class="twelve columns">
+      <hr />
+      <div class="row">
+        <div class="six columns">
+          <p>&copy; 2013 Scotch Media. All rights reserved.</p>
+        </div>
+      </div>
+    </div> 
   </footer>
 
 </template>

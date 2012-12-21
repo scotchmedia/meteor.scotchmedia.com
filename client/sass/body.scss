@@ -1,0 +1,16 @@
+@import "compass/layout/sticky-footer";
+
+@include sticky-footer(72px, "#layout", "#push", "#footer");
+
+#logo {
+  width: 285px;
+  /*height: 100%;*/
+} 
+
+code {
+  background: whitesmoke;
+}
+
+pre code {
+  background: none;
+}

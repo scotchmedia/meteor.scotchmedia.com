@@ -7,7 +7,7 @@
   "dependencies": {
     "basePackages": {
       "router": {},
-      "stylus-mixin": {}
+      "blade": {}
     },
     "packages": {
       "router": {
@@ -15,10 +15,10 @@
         "tag": "v0.3.4",
         "commit": "8f0d5303de5b93771e91f21f818be27358c2fb30"
       },
-      "stylus-mixin": {
-        "git": "https://github.com/Charuru/stylus-mixin.git",
-        "tag": "v1.1.0",
-        "commit": "30483b684d044c09209882ed49fa4a9907300fcf"
+      "blade": {
+        "git": "https://github.com/bminer/node-blade.git",
+        "tag": "v3.0.0alpha10",
+        "commit": "78c5cad14c19759cadf6c11b18279b4337722c4d"
       },
       "page-js": {
         "git": "https://github.com/tmeasday/meteor-page-js.git",

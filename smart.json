@@ -1,10 +1,6 @@
 {
-  "meteor": {
-    "git": "https://github.com/meteor/meteor.git",
-    "branch": "master"
-  },
   "packages": {
     "router": {},
-    "stylus-mixin": {}
+    "blade": {}
   }
 }

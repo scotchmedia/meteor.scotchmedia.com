@@ -20,17 +20,24 @@
 
 <template name="tutorial">
 
-  <ul class="breadcrumbs">
-    <li><a href="/tutorials">tutorials</a></li>
-    <li>{{book}}</li> 
-  </ul>
+  <div class="row">
 
-  <aside id="sidebar">
-    {{{marked mdToc}}}
-  </aside>
+    <ul class="breadcrumbs">
+      <li><a href="/tutorials">tutorials</a></li>
+      <li>{{book}}</li> 
+    </ul>
 
-  <article id="content">
-    {{{marked mdContent}}}
-  </article>
+    <div class="three columns">
+      <aside id="sidebar">
+        {{{marked mdToc}}}
+      </aside>
+    </div>
+    <div class="nine columns">
+      <article id="content">
+        {{{marked mdContent}}}
+      </article>
+    </div>
+
+  </div>
 
 </template>

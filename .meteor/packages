@@ -9,7 +9,6 @@ preserve-inputs
 underscore
 http
 router
-showdown
 jquery
 spiderable
-stylus-mixin
+blade
