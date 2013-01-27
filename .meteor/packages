@@ -13,3 +13,4 @@ router
 showdown
 jquery
 spiderable
+jade-handlebars
