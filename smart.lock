@@ -7,7 +7,8 @@
   "dependencies": {
     "basePackages": {
       "router": {},
-      "jade-handlebars": {}
+      "jade-handlebars": {},
+      "blade": {}
     },
     "packages": {
       "router": {
@@ -19,6 +20,11 @@
         "git": "https://github.com/SimonDegraeve/meteor-jade-handlebars.git",
         "tag": "v0.2.7",
         "commit": "82f6f9ac43a68ffabe1d9b9620be2a4ca6790b56"
+      },
+      "blade": {
+        "git": "https://github.com/bminer/node-blade.git",
+        "tag": "v3.0.0beta7",
+        "commit": "8efd128495b17191215a7b2c1837848ea1511b44"
       },
       "page-js": {
         "git": "https://github.com/tmeasday/meteor-page-js.git",

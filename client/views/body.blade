@@ -1,0 +1,13 @@
+.container
+  .page-header
+    .row
+      .span3
+        a(href='/')
+          h1 Scotch Media
+      .span9
+        ul.nav.nav-pills.nav-main
+          li(class="{{isActiveTop 'home'}}")
+            a.nav-link(href='/') Home
+          li(class="{{isActiveTop 'tutorials'}}")
+            a.nav-link(href='/tutorials') Tutorials
+  .content

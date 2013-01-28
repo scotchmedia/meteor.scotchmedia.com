@@ -5,6 +5,7 @@
   },
   "packages": {
     "router": {},
-    "jade-handlebars": {}
+    "jade-handlebars": {},
+    "blade": {}
   }
 }
