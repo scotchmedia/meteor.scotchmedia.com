@@ -1,7 +1,7 @@
 (function () {
 
   function track() {
-    _gaq.push(['_trackPageview', 
+    _gaq.push(['_trackPageview',
               window.location.pathname +
               window.location.search +
               window.location.hash]);
@@ -12,7 +12,7 @@
     Session.set('section', 'Projects');
     //return 'projects';
   }
-  
+
   function project(slug) {
     var url = '/md/projects/' + slug + '.md';
     Meteor.http.call("GET", url, function (error, result) {
@@ -59,6 +59,7 @@
 
   Meteor.Router.add({
     '/': 'home',
+    '/contact': 'contact',
     '/projects': projects,
     '/projects/:slug': project,
     '/tutorials': tutorials,

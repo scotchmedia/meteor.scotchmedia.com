@@ -1,0 +1,24 @@
+<template name="body">
+  <div id="wrap">
+    <div class="container">
+      <div class="page-header">
+        <div class="row">
+          <div class="col-span-3">
+            <a href="/">
+              <h1>Scotch Media</h1>
+            </a>
+          </div>
+          <div class="col-span-9">
+            {{#if true}}
+              <ul class="nav nav-pills nav-main">
+                <li class="{{isActiveTop 'home'}}"><a href="/" class="nav-link">Home</a></li>
+                <li class="{{isActiveTop 'tutorials'}}"><a href="/tutorials" class="nav-link">Tutorials</a></li>
+              </ul>
+            {{/if}}
+          </div>
+        </div>
+      </div>
+      <div class="content">{{renderPage}}</div>
+    </div>
+  </div>
+</template>

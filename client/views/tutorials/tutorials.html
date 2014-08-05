@@ -1,0 +1,30 @@
+
+<template name="tutorials">
+  <h2>Tutorials</h2>
+  <ul>
+    <li>Express
+      <ul>
+        <li><a href="/tutorials/express/authentication">Authenticaion</a></li>
+      </ul>
+    </li>
+    <li>Meteor
+      <ul>
+        <li><a href="/tutorials/meteor/blog">Creating a Blog</a></li>
+      </ul>
+    </li>
+  </ul>
+</template>
+
+<template name="tutorial">
+  <ul class="breadcrumb">
+    <li><a href="/{{section}}">{{section}}</a></li>
+    <li class="active">{{book}}</li>
+  </ul>
+  <div class="row">
+    <div class="col-span-2">{{{marked mdToc}}}</div>
+    <div class="col-span-8">{{{marked mdContent}}}</div>
+    <div class="col-span-2">
+      <h5>This tutorial sponsored by Borja Robles</h5>
+    </div>
+  </div>
+</template>
